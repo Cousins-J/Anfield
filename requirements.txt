@@ -1,7 +1,4 @@
-absl-py==0.15.0
-acme==1.1.0
-altair==4.2.0
-anyio==3.6.2
+
 apriori==1.0.0
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
@@ -32,8 +29,6 @@ cycler==0.10.0
 dbus-python==1.2.16
 debugpy==1.6.3
 decorator==5.1.1
-defer==1.0.6
-defusedxml==0.7.1
 distro==1.4.0
 distro-info===0.23ubuntu1
 duplicity==0.8.12.0
@@ -46,7 +41,6 @@ Flask-WTF==1.0.1
 flatbuffers==1.12
 folder-color-common==0.0.88
 future==0.18.2
-gast==0.4.0
 gitdb==4.0.9
 GitPython==3.1.28
 google-auth==1.35.0
@@ -217,7 +211,6 @@ webencodings==0.5.1
 websocket-client==1.4.2
 Werkzeug==2.2.2
 widgetsnbextension==4.0.3
-wrapt==1.12.1
 WTForms==3.0.1
 xkit==0.0.0
 zipp==3.10.0
