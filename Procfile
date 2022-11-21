@@ -1,1 +1,1 @@
-web: gunicorn myflask:app
+web: gunicorn --timeout 600 myflask:app
