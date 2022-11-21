@@ -10,8 +10,6 @@ from pathlib import Path
 import cv2
 import sys
 import math
-import tensorflow as tf
-import classify as cls
 
 app = Flask(__name__)
 
@@ -37,7 +35,7 @@ def uploadvid():
                 cv2.imwrite(filename='./data/frame' + str(currentframe) + '.jpg',img= frame)
                 currentframe +=1
                 
-                if currentframe == 9:
+                if currentframe == 50:
                     break
                 #if cv2.waitKey(1) & 0xFF == ord('q'):
                 #    break
