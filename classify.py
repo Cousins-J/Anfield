@@ -7,7 +7,7 @@ from keras.preprocessing.image import load_img
 from tensorflow import keras
 from keras.models import load_model
 
-model = load_model('/home/justin/MLflask/themodel.h5')
+model = load_model('./themodel.h5')
 
 
 def classify(image_path):
